@@ -1,100 +1,145 @@
+<a name="readme-top"></a>
+
+<div align="center">
+  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+  <img src="calculator.png" alt="logo" width="140"  height="auto" />
+  <br/>
+
+  <h3><b>Microverse README Template</b></h3>
+
+</div>
+
+<!-- TABLE OF CONTENTS -->
+
 # 📗 Table of Contents
-- [📗 Table of Contents](#-table-of-contents)
-- [📖 Group-Capstone Project ](#-group-capstone-project-)
-  - [🛠 Built With ](#-built-with-)
-    - [Tech Stack ](#tech-stack-)
-    - [Key Features ](#key-features-)
-  - [Live Demo](#live-demo)
-  - [Video presentation Link](#video-presentation-link)
-  - [💻 Getting Started ](#-getting-started-)
-    - [Prerequisites](#prerequisites)
-    - [Install](#install)
-    - [Usage](#usage)
-  - [👥 Authors ](#-authors-)
-  - [🔭 Future Features ](#-future-features-)
-  - [🤝 Contributing ](#-contributing-)
-  - [⭐️ Show your support ](#️-show-your-support-)
-  - [🙏 Acknowledgments ](#-acknowledgments-)
-  - [📝 License ](#-license-)
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
+
+<!-- PROJECT DESCRIPTION -->
 
 
+# 📖 Micro_Verse_React_Maths_Mathematician_App <a name="about-project"></a>
 
-# 📖 Micro_Verse_React_Maths_Mathematician_App Project <a name="about-project"></a>
 
-
-**Micro_Verse_React_Maths_Mathematician_App**
-"Micro_Verse_React_Maths_Mathematician_App" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
+**Micro_Verse_React_Maths_Mathematician_App**"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to
 
 Make simple calculations.
 Read a random math-related quote.
-By building this application, you will learn how to use React.
 
-How to build the "Math magicians" website
-You will start by building the core functionality, which is a calculator. At the very beginning your website will contain only the simple UI presented below, but it will be able to perform all math operations.
+![the calculator image]  <img src="calculator.png" alt="logo" width="100"  height="auto" />
 
-Calculator  
-![the calculator image](/calculator.png)
-## 🛠 Built With <a name="built-with"></a>e 
+
+## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
+> Describe the tech stack and include only the relevant sections that apply to your project.
+
 <details>
-  <summary>HTML,CSS</summary>
-  <summary>Javasript</summary>
-  <summary>Linters</summary>
-  <summary>Github</summary>
-   <summary>nodejs</summary>
+  <summary>React</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
 </details>
 
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://nodejs.com/">Express.js</a></li>
+  </ul>
+</details>
+
+<details>
+
+<!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **use webpack**
-- **used flex-box**
-- **used grids**
-- **fetch data from api**
+> The application fetches data from API
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-## Live Demo
-[coming soon]()
+- **[Fetch data from API]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Video presentation Link
+<!-- GETTING STARTED -->
 
- [link](https://drive.google.com/file/d/1wDuAy13O13CUaOgMJsHIMNwyzkaqJigV/view?usp=sharing)
-
- <p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps. It's a simple project.
+> To get a local copy up and running, follow these steps.
 
 ### Prerequisites
-In order to run this project you need:
-- A browser that supports html5 and css3
 
-### Install
+To run a cloned Create React App project, follow these steps:
 
-- cd [my-folder]
--[git clone] (git@github.com:kayjeee/Group-capstone.git)
--cd [repo-name]
--code .
+1. Open your terminal or command prompt.
 
-### Usage
+2. Navigate to the root directory of the cloned project using the `cd` command. For example, if the project is located in a folder called "my-app", use:
 
-- install live server extension on vs code
-- run npm install in the root directory of your folder
+  ```shell
+   cd my-app
+  ```
+Once you are in the project's directory, install the project dependencies by running the following command:
+```
+npm install
+```
+This will fetch and install all the necessary packages and dependencies specified in the project's package.json file.
+
+After the installation is complete, you can start the development server by running the following command:
+```
+npm start
+```
+This will compile the project and start a local development server. You should see output indicating that the server is running and listening for requests.
+
+Open your web browser and visit http://localhost:3000. You should see your Create React App project running and can interact with it in the browser.
+
+During development, the server will automatically reload the app whenever you make changes to the source code. Simply save your changes, and the browser will update to reflect those changes.
+
+Remember to keep the terminal or command prompt window open while running the development server. You can stop the server at any time by pressing Ctrl + C in the terminal or command prompt.
+
+That's it! You can now explore, modify, and test your cloned Create React App project on your local machine.
+
+### Setup
+Clone this repository to your desired folder:
+
+```
+cd my-folder
+git clone git@github.com:myaccount/my-project.git
+```
+Install
+Install this project with:
+
+```
+cd my-project
+npm install
+
+```
+Usage
+To run the project, execute the following command:
+
+```
+npm start
+
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Okongo Derrick**
-    
-- GitHub: [@derrick14](https://github.com/derrick14/51)
-- Twitter: [@derrick14](https://twitter.com/DerrickHayle)
-- LinkedIn: [okongo derrick](https://www.linkedin.com/in/okongo-derrick-a0147622b/)
-  
+> Mention all of the collaborators of this project.
+> 
   👤 **Kagiso Sebogodi**
     
 - GitHub: [@Kagiso Sebogodi](https://github.com/kayjeee)
@@ -102,37 +147,58 @@ In order to run this project you need:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- FUTURE FEATURES -->
+
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **improve on the typography**
-- **add a reservation button**
-- **use es6 modules**
+>I will be building your "Math magicians" website for more than a whole week. Here is the list of projects that will guide me through the steps described above. . In some of the projects, I will be working collaboratively by using pair programming.
 
+- [Project 2:] **[Components.]**
+- [Project 3:] **[ Events.]**
+- [ Project 4:] **[ Fetch data from API.]**
+- [Project 5:] **[Full website.]**
+- [Project 6:] **[Tests (pair programming).]**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🤝 Contributing <a name="contributing"></a>
-
-Contributions, issues, and feature requests are welcome!
-
-I'm open to any suggestions about this project.
-
-Feel free to check the [issues page](https://github.com/kayjeee/Group-capstone/issues).
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+<!-- SUPPORT -->
 ## ⭐️ Show your support <a name="support"></a>
+If you find this project valuable and useful, I would greatly appreciate your support. Here are a couple of ways you can show your support:
 
-If you like this project don't hesitate to give it a start. ⭐️
+Follow Me on GitHub: Stay updated with my latest projects and contributions by following me on GitHub. You can find my profile here.
+
+Star the Project: If you think this project deserves recognition, please consider giving it a star on GitHub. Your star helps to increase its visibility and encourages others to explore and use it. You can star the project here below and follow me
+### My GitHub profile: Follow me I follow Back🤞
+ [kayjeee](https://github.com/kayjeee)
+
+### GitHub Project Link:(⊙_⊙;)
+ [Micro_Verse_React_Maths_Mathematician_App](https://github.com/kayjeee/Micro_Verse_React_Maths_Mathematician_App)
+
+Thank you for your support and encouragement. It means a lot to me as a developer. If you have any feedback or suggestions, feel free to reach out. Together, we can make this project even better!
+
+Keep coding and stay awesome! 👨‍💻✨
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
+I would like to express my heartfelt gratitude and give credit to the following GitHub users who have inspired and contributed to this project:
 
-I want to give special thanks to Microverse for the great opportunity given to me to realise my dreams.
+https://github.com/Peter-Dumbari: Their innovative ideas and code snippets were instrumental in shaping certain aspects of this project.
+https://github.com/10-menachi: Their open-source libraries and documentation provided valuable insights that helped overcome various challenges during development.
+https://github.com/AbdelazizSoliman: Their innovative ideas and code snippets were instrumental in shaping certain aspects of this project.
+https://github.com/bronnie313: Their open-source libraries and documentation provided valuable insights that helped overcome various challenges during development.
+
+If I inadvertently missed anyone who deserves acknowledgment, please accept my apologies and know that your contributions are greatly appreciated.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE.md) licensed.
+This project is [MIT](./LICENSE) licensed.
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

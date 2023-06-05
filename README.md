@@ -19,10 +19,11 @@
 
 
 
-# 📖 My-App Project <a name="about-project"></a>
+# 📖 Micro_Verse_React_Maths_Mathematician_App Project <a name="about-project"></a>
 
 
-**Maths mathematician**"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
+**Micro_Verse_React_Maths_Mathematician_App**
+"Micro_Verse_React_Maths_Mathematician_App" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
 
 Make simple calculations.
 Read a random math-related quote.

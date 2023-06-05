@@ -37,11 +37,12 @@
 Make simple calculations.
 Read a random math-related quote.
 
-![the calculator image]  <img src="calculator.png" alt="logo" width="100"  height="auto" />
+  <img src="calculator.png" alt="logo" width="100"  height="auto" />
 
 
 ## 🛠 Built With <a name="built-with"></a>
-
+- React
+- Node
 ### Tech Stack <a name="tech-stack"></a>
 
 > Describe the tech stack and include only the relevant sections that apply to your project.
@@ -59,8 +60,6 @@ Read a random math-related quote.
     <li><a href="https://nodejs.com/">Express.js</a></li>
   </ul>
 </details>
-
-<details>
 
 <!-- Features -->
 
